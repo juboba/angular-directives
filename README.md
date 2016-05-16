@@ -32,14 +32,6 @@ angular.module('myApp', ['click-ed'])
 
 ```html
 <body click-ed-root ng-app="myApp">
-    <div class="description">
-        Note: If some event stops propagation the event will not fire your
-        method.
-        We depend on event propagation (at least till the clicker-root) to
-        detect where the click was made.
-    </div>
-
-
     <div class="click-one" ng-controller="mainController as vm">
         <div>
             <div>
